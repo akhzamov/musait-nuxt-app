@@ -39,17 +39,13 @@ const mobileMenuOpen = ref(false)
 		<div class="navbar-content">
 			<div class="container flex justify-between items-center">
 				<NuxtLink class="navbar-content__logo" :to="localePath('/')">
-					<NuxtImg
-						src="/musait-logo-no-text.svg"
+					<img
+						src="~/assets/img/logos/musait-logo-no-text.svg"
 						class="navbar-content__logo-img circle"
-						loading="lazy"
-						decoding="auto"
 					/>
-					<NuxtImg
-						src="/musait-text.svg"
+					<img
+						src="~/assets/img/logos/musait-text.svg"
 						class="navbar-content__logo-img text"
-						loading="lazy"
-						decoding="auto"
 					/>
 				</NuxtLink>
 				<ul class="navbar-content__list">
