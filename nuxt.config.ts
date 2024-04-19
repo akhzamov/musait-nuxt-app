@@ -63,4 +63,7 @@ export default defineNuxtConfig({
 		defaultLocale: 'ru',
 		vueI18n: './i18n.config.ts',
 	},
+	routeRules: {
+		'/': { prerender: true },
+	}
 })
