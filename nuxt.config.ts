@@ -64,6 +64,6 @@ export default defineNuxtConfig({
 		vueI18n: './i18n.config.ts',
 	},
 	routeRules: {
-		'/': { prerender: true },
+		'/': { prerender: false },
 	}
 })
