@@ -63,6 +63,11 @@ export default defineNuxtConfig({
 		vueI18n: './i18n.config.ts',
 	},
 	routeRules: {
-		'/': { prerender: false },
+		'/': { prerender: false, ssr: true },
+	},
+	nitro: {
+		prerender: {
+			routes: ['/index.html']
+		}
 	}
 })
