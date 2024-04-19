@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './variables.scss';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: $mainFontSize;
+	font-weight: $mainFontWeight;
+	background: $default-color;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	/* ширина всей полосы прокрутки */
+}
+
+::-webkit-scrollbar-track {
+	background: $default-color;
+	/* цвет зоны отслеживания */
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: $primary-color;
+	/* цвет бегунка */
+	border-radius: 12px;
+	/* округлость бегунка */
+}
+
+input,
+textarea,
+select,
+button {
+	background: transparent;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+@mixin media($size) {
+	@media (max-width: #{$size}px) {
+		@content;
+	}
+}
+
+.container {
+	max-width: 1320px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+@include media(1440) {
+	.container {
+		max-width: 1280px;
+	}
+}
+
+@include media(1280) {
+	.container {
+		max-width: 1024px;
+	}
+}
+
+@include media(1024) {
+	.container {
+		max-width: 920px;
+	}
+}
+
+@include media(920) {
+	.container {
+		max-width: 100%;
+	}
+}
+
+.title-glob {
+	font-size: 48px;
+	font-weight: 600;
+	line-height: normal;
+	color: $primary-color;
+
+	@include media(1280) {
+		font-size: 40px;
+	}
+
+	@include media(1024) {
+		font-size: 35px;
+	}
+	@include media(870) {
+		font-size: 30px;
+	}
+	@include media(580) {
+		font-size: 25px;
+	}
+}
+.title-glob_w {
+	font-size: 48px;
+	font-weight: 600;
+	line-height: normal;
+	color: $default-color;
+
+	@include media(1280) {
+		font-size: 40px;
+	}
+
+	@include media(1024) {
+		font-size: 35px;
+	}
+	@include media(870) {
+		font-size: 30px;
+	}
+	@include media(580) {
+		font-size: 25px;
+	}
+}
+
+@import './common.scss';

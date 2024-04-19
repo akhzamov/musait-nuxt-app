@@ -1,0 +1,123 @@
+{
+	"nav": {
+		"top": {
+			"address": "Tashkent, Shakhrisabz Ave., Seoul Plaza business center, 5A",
+			"tel": "Tel.: "
+		},
+		"content": {
+			"list": {
+				"services": "Services",
+				"сases": "Cases",
+				"about": "About",
+				"vacancies": "Vacancies",
+				"contacts": "Contacts"
+			},
+			"button": "Contact manager"
+		}
+	},
+	"header": {
+		"title-one": "We will help you with",
+		"title-two": "and bring visible results",
+		"title-changes": {
+			"1": "IT development",
+			"2": "UI/UX design",
+			"3": "IT audit",
+			"4": "Consulting",
+			"5": "IT-integration",
+			"6": "Promotion of startups",
+			"7": "Acceleration",
+			"8": "IT investments",
+			"9": "AI implementations"
+		},
+		"subtitle": "We develop products that optimize processes and strategies that help increase the income of our clients throughout Uzbekistan and abroad.",
+		"button": "Discuss the project"
+	},
+	"services": {
+		"title": "Our services",
+		"items": {
+			"item-one": {
+				"title": "UI/UX design",
+				"tags": {
+					"tag_one": "UX research",
+					"tag_two": "Design",
+					"tag_three": "Business process optimization"
+				},
+				"text": "We create unique UI/UX design from scratch! Our team will turn your ideas into modern and attractive user interfaces.",
+				"deadline": "from 14 days for 1 project"
+			},
+			"item-two": {
+				"title": "IT- audit and consulting",
+				"tags": {
+					"tag_one": "Security assessment",
+					"tag_two": "Software audit",
+					"tag_three": "Selection of technologies and suppliers"
+				},
+				"text": "Expert IT audit and consulting support. Assess, optimize and secure your information infrastructure.",
+				"deadline": "from 14 days for 1 project"
+			},
+			"item-three": {
+				"title": "IT-integration",
+				"tags": {
+					"tag_one": "Business Process Integration",
+					"tag_two": "Device integration",
+					"tag_three": "Integration of cloud and local systems"
+				},
+				"text": "We will ensure the consistency and efficiency of your information systems, improve processes and increase the competitiveness of your company.",
+				"deadline": "from 14 days for 1 project"
+			},
+			"item-four": {
+				"title": "IT-investments",
+				"tags": {
+					"tag_one": "Investment in software",
+					"tag_two": "Investment in personnel and training",
+					"tag_three": "Investment in innovation and research"
+				},
+				"text": "Our investment solutions are aimed at improving business processes, developing innovative products and increasing competitiveness.",
+				"deadline": "from 14 days for 1 project"
+			},
+			"item-five": {
+				"title": "Startup promotion",
+				"tags": {
+					"tag_one": "Mentoring and Consulting",
+					"tag_two": "Financial support",
+					"tag_three": "Technical support"
+				},
+				"text": "Our team will help your project reach a new level - from strategy development to marketing support.",
+				"deadline": "from 14 days for 1 project"
+			},
+			"item-six": {
+				"title": "Acceleration",
+				"tags": {
+					"tag_one": "Acceleration programs",
+					"tag_two": "Contacts and partnerships",
+					"tag_three": "Events and pitch sessions"
+				},
+				"text": "We help startups and young companies achieve rapid growth and market success.",
+				"deadline": "from 14 days for 1 project"
+			},
+			"item-seven": {
+				"title": "IT development",
+				"tags": {
+					"tag_one": "Mobile application development",
+					"tag_two": "Development of web applications and desktop applications",
+					"tag_three": "Development and implementation of ERP systems"
+				},
+				"text": "We create innovative solutions that will improve your business, optimize processes and increase competitiveness.",
+				"deadline": "from 14 days for 1 project"
+			},
+			"item-eight": {
+				"title": "Implementation of AI",
+				"tags": {
+					"tag_one": "Defining goals and objectives",
+					"tag_two": "Assessing the potential of AI",
+					"tag_three": "Selection of appropriate solutions"
+				},
+				"text": "We implement artificial intelligence for your business! Our AI solutions optimize processes, increase efficiency and help you make more informed decisions.",
+				"deadline": "from 14 days for 1 project"
+			}
+		}
+	},
+	"clients": {
+		"title": "They trust us:"
+	}
+}
