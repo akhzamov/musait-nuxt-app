@@ -15,6 +15,8 @@ useServerSeoMeta({
 	<Cases />
 	<Reviews />
 	<WorkSteps />
+	<Slogan />
+	<Footer />
 </template>
 
 <style></style>

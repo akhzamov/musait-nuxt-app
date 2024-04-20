@@ -1,148 +1,36 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { casesList } from './cases.data'
+</script>
 
 <template>
 	<section class="cases">
 		<div class="container">
-			<h2 class="cases__title title-glob">Наши кейсы:</h2>
+			<h2 class="cases__title title-glob">{{ $t('cases.title') }}:</h2>
 			<div class="cases__items">
-				<div class="cases__item">
-					<img
-						class="cases__item-img"
-						src="~/assets/img/cases/aberno.png"
-						alt=""
-					/>
+				<div class="cases__item" v-for="item in casesList" :key="item.id">
+					<img class="cases__item-img" :src="item.img" alt="" />
 					<div class="cases__item-top">
-						<p class="cases__item-tag">Разработка веб-сайта компании</p>
-						<h3 class="cases__item-title">Aberno</h3>
-						<p class="cases__item-subtitle">
-							Lorem ipsum dolor sit amet consectetur.
-						</p>
+						<p class="cases__item-tag">{{ $t(item.tag) }}</p>
+						<h3 class="cases__item-title">{{ $t(item.title) }}</h3>
+						<p class="cases__item-subtitle">{{ $t(item.subtitle) }}</p>
 					</div>
 					<div class="cases__item-line"></div>
 					<div class="cases__item-center">
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
+						<div
+							class="cases__item-text-dot"
+							v-for="work in item.works"
+							:key="work.id"
+						>
+							<ICO_circle-sharp size="7px" fill="#1e1e1e" />
+							<span>{{ $t(work.text) }}</span>
+						</div>
 					</div>
 					<div class="cases__item-line"></div>
 					<div class="cases__item-bottom">
-						<p class="cases__item-text-bottom">
-							Увеличение прибыли/продуктивности:
-						</p>
+						<p class="cases__item-text-bottom">{{ $t(item.benefit) }}</p>
 					</div>
 					<div class="cases__item-button">
-						<button>Смотреть кейс</button>
-					</div>
-				</div>
-				<div class="cases__item">
-					<img
-						class="cases__item-img"
-						src="~/assets/img/cases/aberno.png"
-						alt=""
-					/>
-					<div class="cases__item-top">
-						<p class="cases__item-tag">Разработка веб-сайта компании</p>
-						<h3 class="cases__item-title">Aberno</h3>
-						<p class="cases__item-subtitle">
-							Lorem ipsum dolor sit amet consectetur.
-						</p>
-					</div>
-					<div class="cases__item-line"></div>
-					<div class="cases__item-center">
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
-					</div>
-					<div class="cases__item-line"></div>
-					<div class="cases__item-bottom">
-						<p class="cases__item-text-bottom">
-							Увеличение прибыли/продуктивности:
-						</p>
-					</div>
-					<div class="cases__item-button">
-						<button>Смотреть кейс</button>
-					</div>
-				</div>
-				<div class="cases__item">
-					<img
-						class="cases__item-img"
-						src="~/assets/img/cases/aberno.png"
-						alt=""
-					/>
-					<div class="cases__item-top">
-						<p class="cases__item-tag">Разработка веб-сайта компании</p>
-						<h3 class="cases__item-title">Aberno</h3>
-						<p class="cases__item-subtitle">
-							Lorem ipsum dolor sit amet consectetur.
-						</p>
-					</div>
-					<div class="cases__item-line"></div>
-					<div class="cases__item-center">
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
-					</div>
-					<div class="cases__item-line"></div>
-					<div class="cases__item-bottom">
-						<p class="cases__item-text-bottom">
-							Увеличение прибыли/продуктивности:
-						</p>
-					</div>
-					<div class="cases__item-button">
-						<button>Смотреть кейс</button>
-					</div>
-				</div>
-				<div class="cases__item">
-					<img
-						class="cases__item-img"
-						src="~/assets/img/cases/aberno.png"
-						alt=""
-					/>
-					<div class="cases__item-top">
-						<p class="cases__item-tag">Разработка веб-сайта компании</p>
-						<h3 class="cases__item-title">Aberno</h3>
-						<p class="cases__item-subtitle">
-							Lorem ipsum dolor sit amet consectetur.
-						</p>
-					</div>
-					<div class="cases__item-line"></div>
-					<div class="cases__item-center">
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
-						<p class="cases__item-text-dot">
-							Определить какие результаты будем указывать
-						</p>
-					</div>
-					<div class="cases__item-line"></div>
-					<div class="cases__item-bottom">
-						<p class="cases__item-text-bottom">
-							Увеличение прибыли/продуктивности:
-						</p>
-					</div>
-					<div class="cases__item-button">
-						<button>Смотреть кейс</button>
+						<button>{{ $t('cases.button') }}</button>
 					</div>
 				</div>
 			</div>

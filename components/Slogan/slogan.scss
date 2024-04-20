@@ -1,0 +1,76 @@
+.slogan {
+	margin-top: 40px;
+	padding: 50px 0 140px 0;
+	position: relative;
+
+	@include media(1200) {
+		padding-bottom: 100px;
+	}
+
+	& .container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__bg-left,
+	&__bg-right {
+		position: absolute;
+		top: -50%;
+		width: 460px;
+		height: 520px;
+		display: block;
+		object-fit: contain;
+		transform: translateY(45%);
+
+		@include media(1200) {
+			width: 368px;
+			height: 416px;
+			transform: translateY(60%);
+		}
+
+		@include media(980) {
+			transform: translateY(55%);
+		}
+		@include media(768) {
+			width: 257px;
+			height: 316px;
+			transform: translateY(80%);
+		}
+	}
+
+	&__bg-left {
+		left: 0;
+	}
+
+	&__bg-right {
+		right: 0;
+	}
+
+	&__img {
+		width: 150px;
+		height: 180px;
+		display: block;
+		object-fit: contain;
+	}
+
+	&__text {
+		width: 650px;
+		font-size: 32px;
+		font-weight: 600;
+		line-height: normal;
+		color: $primary-color;
+		text-align: center;
+
+		@include media(1065) {
+			width: 550px;
+		}
+		@include media(980) {
+			font-size: 25px;
+		}
+		@include media(580) {
+			width: 100%;
+		}
+	}
+}

@@ -74,7 +74,7 @@
 		}
 
 		&-line {
-			height: 3px;
+			height: 1.5px;
 			width: 80%;
 			display: block;
 			background: $cases-line-color;
@@ -92,6 +92,10 @@
 			line-height: normal;
 			color: $default-grey;
 			margin-bottom: 6px;
+
+			@include media(860){
+				width: 100%;
+			}
 		}
 
 		&-title {
@@ -123,15 +127,6 @@
 			display: flex;
 			align-items: center;
 			gap: 5px;
-
-			&::before {
-				content: '';
-				display: inline-flex;
-				width: 5px;
-				height: 5px;
-				border-radius: 50%;
-				background: $default-grey;
-			}
 		}
 
 		&-text-bottom {

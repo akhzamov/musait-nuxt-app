@@ -11,7 +11,7 @@ const modules = reactive([Pagination, Navigation])
 <template>
 	<section class="reviews">
 		<div class="container">
-			<div class="reviews__title title-glob">Отзывы наших клиентов</div>
+			<div class="reviews__title title-glob">{{ $t('reviews.title') }}</div>
 			<swiper
 				:slidesPerView="'auto'"
 				:spaceBetween="20"

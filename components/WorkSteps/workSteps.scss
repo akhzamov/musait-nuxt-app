@@ -26,7 +26,21 @@
 			grid-template-columns: repeat(2, 450px);
 		}
 		@include media(1100) {
-			grid-template-columns: repeat(1, 550px);
+			grid-template-columns: repeat(2, 420px);
+			grid-auto-rows: 400px;
+		}
+
+		@include media(980) {
+			grid-template-columns: repeat(2, 350px);
+		}
+		@include media(780) {
+			grid-template-columns: repeat(1, 450px);
+		}
+		@include media(480) {
+			grid-template-columns: repeat(1, 350px);
+		}
+		@include media(380) {
+			grid-template-columns: repeat(1, 310px);
 		}
 	}
 
@@ -67,21 +81,31 @@
 		}
 
 		&-img {
-			width: 240px;
-			height: 240px;
+			width: 220px;
+			height: 220px;
 			object-fit: contain;
 			display: block;
 			position: absolute;
 			top: -15%;
-			right: -10%;
+			right: -5%;
 			transform: rotate(5deg);
 			transition: all 0.2s linear;
 
 			@include media(1400) {
-				width: 220px;
+				width: 180px;
+				height: 180px;
 			}
 			@include media(1200) {
-				width: 180px;
+				width: 160px;
+				height: 160px;
+			}
+			@include media(980) {
+				right: 0;
+			}
+			@include media(780) {
+				top: 0;
+				width: 140px;
+				height: 140px;
 			}
 		}
 
@@ -108,13 +132,24 @@
 			font-weight: 500;
 			line-height: normal;
 			color: $default-color;
+			@include media(1200) {
+				margin-top: 10px;
+			}
+			@include media(1100) {
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+
+			@include media(980) {
+				font-size: 25px;
+			}
 		}
 
 		&-tasks {
 			margin-top: 15px;
 			display: flex;
 			flex-direction: column;
-			gap: 4px;
+			gap: 15px;
 
 			@include media(1100) {
 				width: 100%;
@@ -131,11 +166,10 @@
 			align-items: center;
 			gap: 4px;
 
-			&::before {
-				content: '';
+			& span {
 				width: 5px;
 				height: 5px;
-				display: inline-flex;
+				display: block;
 				border-radius: 50%;
 				background: $default-color;
 			}

@@ -3,7 +3,7 @@
 <template>
 	<section class="clients">
 		<div class="container">
-			<h2 class="clients__title title-glob">Нам доверяют:</h2>
+			<h2 class="clients__title title-glob">{{ $t('clients.title') }}</h2>
 		</div>
 		<div class="slider">
 			<div class="slider-track">

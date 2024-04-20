@@ -119,5 +119,113 @@
 	},
 	"clients": {
 		"title": "They trust us:"
+	},
+	"cases": {
+		"title": "Our cases:",
+		"button": "More info",
+		"case_one": {
+			"title": "Aberno",
+			"tag": "Development of the company's internal system",
+			"subtitle": "System for automating internal processes",
+			"works": {
+				"work_one": "Implementation of a product quality monitoring system",
+				"work_two": "Implementation of a warehouse monitoring and management system",
+				"work_three": "Equipment management system integration"
+			},
+			"benefit": "Increased profit/productivity"
+		},
+		"case_two": {
+			"title": "Medicalka",
+			"tag": "Company website development",
+			"subtitle": "Information web portal about health",
+			"works": {
+				"work_one": "Development of interactive web resources",
+				"work_two": "Creating a community and forum",
+				"work_three": "Expansion of thematic coverage"
+			},
+			"benefit": "Increased profit/productivity"
+		},
+		"case_three": {
+			"title": "WMS",
+			"tag": "Development of the company's internal system",
+			"subtitle": "System for automating internal processes",
+			"works": {
+				"work_one": "Development of a warehouse management system",
+				"work_two": "Implementation of a cargo tracking system",
+				"work_three": "Order management system integration"
+			},
+			"benefit": "Increased profit/productivity"
+		},
+		"case_four": {
+			"title": "Moow motors",
+			"tag": "Company website development",
+			"subtitle": "Online store for selling cars",
+			"works": {
+				"work_one": "Implementation of a virtual car tour",
+				"work_two": "Implementation of online consultant and chat support",
+				"work_three": "Creating an interactive map to search for cars"
+			},
+			"benefit": "Increased profit/productivity"
+		}
+	},
+	"reviews": {
+		"title": "Reviews from our clients"
+	},
+	"work_steps": {
+		"title": "How we are working?",
+		"step_one": {
+			"title": "Planning and Analysis",
+			"tasks": {
+				"task_one": "Defining project goals and requirements",
+				"task_two": "Analysis of business processes and user needs",
+				"task_three": "Estimation of resources and determination of budget"
+			}
+		},
+		"step_two": {
+			"title": "Engineering",
+			"tasks": {
+				"task_one": "Creating a project architecture and choosing technologies",
+				"task_two": "User interface development (UI/UX design)",
+				"task_three": "Designing databases and application structure"
+			}
+		},
+		"step_three": {
+			"title": "Development",
+			"tasks": {
+				"task_one": "Direct creation of program code and functionality",
+				"task_two": "Creation and development of a web application for all devices",
+				"task_three": "Testing and debugging the application to ensure quality and reliability"
+			}
+		},
+		"step_four": {
+			"title": "Testing",
+			"tasks": {
+				"task_one": "Conducting various types of testing",
+				"task_two": "Conducting a security check",
+				"task_three": "Correcting errors and eliminating defects"
+			}
+		},
+		"step_five": {
+			"title": "Implementation",
+			"tasks": {
+				"task_one": "Deploying and installing the application on production servers or devices",
+				"task_two": "Final work of servers and devices application",
+				"task_three": "Conducting user training and implementing support and update processes"
+			}
+		},
+		"step_six": {
+			"title": "Support and Maintenance",
+			"tasks": {
+				"task_one": "Extended routine maintenance",
+				"task_two": "Restoring the application",
+				"task_three": "Update and modernize the application"
+			}
+		}
+	},
+	"slogan": "Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.",
+	"footer": {
+		"contacts": "Contacts",
+		"work_time": "Work time",
+		"work_week": "Mon - Fri"
 	}
 }
