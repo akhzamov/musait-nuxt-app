@@ -5,7 +5,7 @@ import { casesList } from './cases.data'
 <template>
 	<section class="cases">
 		<div class="container">
-			<h2 class="cases__title title-glob">{{ $t('cases.title') }}:</h2>
+			<h2 class="cases__title title-glob">{{ $t('cases.title') }}</h2>
 			<div class="cases__items">
 				<div class="cases__item" v-for="item in casesList" :key="item.id">
 					<img class="cases__item-img" :src="item.img" alt="" />

@@ -11,9 +11,9 @@ useServerSeoMeta({
 	</header>
 	<Services />
 	<Clients />
-	<Stats />
+	<!-- <Stats /> -->
 	<Cases />
-	<Reviews />
+	<!-- <Reviews /> -->
 	<WorkSteps />
 	<Slogan />
 	<Footer />

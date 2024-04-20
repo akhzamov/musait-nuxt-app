@@ -64,6 +64,16 @@ export default defineNuxtConfig({
 	},
 	routeRules: {
 		'/': { prerender: false, ssr: true },
+		'/about': { redirect: '/technical' },
+		'/cases': { redirect: '/technical' },
+		'/contacts': { redirect: '/technical' },
+		'/services': { redirect: '/technical' },
+		'/vacancies': { redirect: '/technical' },
+		'/en/about': { redirect: '/en/technical' },
+		'/en/cases': { redirect: '/en/technical' },
+		'/en/contacts': { redirect: '/en/technical' },
+		'/en/services': { redirect: '/en/technical' },
+		'/en/vacancies': { redirect: '/en/technical' },
 	},
 	nitro: {
 		prerender: {
