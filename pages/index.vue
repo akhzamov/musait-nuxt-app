@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-useServerSeoMeta({
+useSeoMeta({
 	title: 'Musait Technologies',
 })
 </script>
