@@ -45,15 +45,15 @@
 			<div class="container">
 				<ul class="footer-bottom__list">
 					<li>
-						<a
-							href="https://www.instagram.com/musait_technologies/"
-							target="_blank"
-						>
+						<a href="https://t.me/Musait_technologies" target="_blank">
 							<img src="~/assets/img/footer/telegram.svg" alt="" />
 						</a>
 					</li>
 					<li>
-						<a href="https://t.me/Musait_technologies" target="_blank">
+						<a
+							href="https://www.instagram.com/musait_technologies/"
+							target="_blank"
+						>
 							<img src="~/assets/img/footer/instagram.svg" alt="" />
 						</a>
 					</li>
