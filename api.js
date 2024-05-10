@@ -1,1 +1,1 @@
-export const baseURL = 'http://api.musait.tech'
+export const baseURL = 'https://api.musait.tech'
