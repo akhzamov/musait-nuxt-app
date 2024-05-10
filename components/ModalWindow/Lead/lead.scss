@@ -1,0 +1,92 @@
+.modal-lead {
+	width: 660px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: $default-color;
+	box-shadow: 0px 0px 11.3px 3px #97979740;
+	border-radius: 30px;
+	padding: 35px;
+
+	@include media(760) {
+		width: 560px;
+		padding: 20px;
+	}
+
+	@include media(660) {
+		width: 460px;
+	}
+
+	@include media(570) {
+		width: 360px;
+		overflow-x: hidden;
+		padding: 10px;
+		width: 100%;
+	}
+
+	&__title {
+		width: 90%;
+		text-align: center;
+		font-size: 30px;
+		font-weight: 600;
+		line-height: normal;
+		color: $default-grey;
+
+		& span {
+			color: $primary-color;
+		}
+
+		@include media(760) {
+			font-size: 25px;
+		}
+	}
+
+	&__form {
+		width: 280px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+
+		&-top {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 20px;
+
+			@include media(570) {
+				flex-direction: column;
+			}
+		}
+
+		&-group {
+			justify-content: center;
+			width: 100%;
+			display: grid;
+			grid-template-columns: 280px;
+			grid-auto-rows: 80px;
+			gap: 20px;
+
+			& input {
+				height: 45px;
+			}
+
+			@include media(760) {
+				grid-template-columns: 100%;
+			}
+		}
+
+		& button {
+			width: 280px;
+			@include media(760) {
+				width: 100%;
+			}
+		}
+	}
+}

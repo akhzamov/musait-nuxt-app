@@ -5,7 +5,7 @@ import { servicesData } from './services.data'
 <template>
 	<section class="services">
 		<div class="container">
-			<h2 class="services__title title-glob">{{ $t('services.title') }}</h2>
+			<h2 class="services__title title-glob_w">{{ $t('services.title') }}</h2>
 			<div class="services__items">
 				<div class="services__item" v-for="data in servicesData" :key="data.id">
 					<img class="services__item-img" :src="data.image" alt="" />

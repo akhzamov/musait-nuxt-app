@@ -3,6 +3,7 @@ import { navbarData } from './navbar.data'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 
+const modalWindowStore = useModalWindowStore()
 const useIdFunction = () => useId()
 const localePath = useLocalePath()
 const { locale, locales } = useI18n()
@@ -16,6 +17,10 @@ const addressLink = ref('https://yandex.ru/profile/137293321076')
 const phoneNumber = ref('+998772889099')
 const buttonHoverActive = ref(false)
 const mobileMenuOpen = ref(false)
+const openLeadModal = () => {
+	modalWindowStore.modalOpen = true
+	modalWindowStore.leadModalActive = true
+}
 </script>
 
 <template>
@@ -114,16 +119,12 @@ const mobileMenuOpen = ref(false)
 						</ClientOnly>
 					</li>
 				</ul>
-				<a
-					href="https://t.me/musait_manager"
-					target="_blank"
-					class="navbar-content__button"
-				>
+				<button class="navbar-content__button" @click="openLeadModal()">
 					<span>{{ $t('nav.content.button') }}</span>
 					<span>
 						<ICO_arrow-circle size="25" fill="#006569" />
 					</span>
-				</a>
+				</button>
 				<button class="navbar-content__menu" @click="mobileMenuOpen = true">
 					<ICO_dashboard size="25" fill="##" />
 				</button>
@@ -214,16 +215,12 @@ const mobileMenuOpen = ref(false)
 					</ClientOnly>
 				</li>
 			</ul>
-			<a
-				href="https://t.me/musait_manager"
-				target="_blank"
-				class="navbar-content__button mobile"
-			>
+			<button class="navbar-content__button mobile" @click="openLeadModal()">
 				<span>{{ $t('nav.content.button') }}</span>
 				<span>
 					<ICO_arrow-circle size="25" fill="#006569" />
 				</span>
-			</a>
+			</button>
 		</div>
 	</nav>
 </template>

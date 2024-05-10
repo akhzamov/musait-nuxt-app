@@ -29,16 +29,16 @@
 						</li>
 					</ul>
 				</div>
-				<div class="footer-top__items">
-					<p class="footer-top__items-title">{{ $t('footer.work_time') }}</p>
-					<p class="footer-top__items-text">09:00 - 18 00</p>
-					<p class="footer-top__items-text">{{ $t('footer.work_week') }}</p>
-				</div>
 				<img
 					class="footer-top__logo"
 					src="~/assets/img/logos/musait-logo.svg"
 					alt=""
 				/>
+				<div class="footer-top__items">
+					<p class="footer-top__items-title">{{ $t('footer.work_time') }}</p>
+					<p class="footer-top__items-text">09:00 - 18 00</p>
+					<p class="footer-top__items-text">{{ $t('footer.work_week') }}</p>
+				</div>
 			</div>
 		</div>
 		<div class="footer-bottom">

@@ -16,6 +16,14 @@ export default {
 			xl: '1440px',
 			'2xl': '1536px',
 		},
+		extend: {
+			colors: {
+				primary: {
+					500: '#006569',
+					600: 'rgba(0, 102, 105, 0.1)',
+				},
+			},
+		},
 	},
 	plugins: [],
 }

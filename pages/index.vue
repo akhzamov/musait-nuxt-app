@@ -6,17 +6,15 @@ useSeoMeta({
 
 <template>
 	<header class="header">
-		<Navbar />
 		<Header />
 	</header>
 	<Services />
 	<Clients />
-	<!-- <Stats /> -->
+	<Stats />
 	<Cases />
-	<!-- <Reviews /> -->
+	<Reviews />
 	<WorkSteps />
 	<Slogan />
-	<Footer />
 </template>
 
 <style></style>

@@ -33,7 +33,7 @@
 		"button": "Обсудить проект"
 	},
 	"services": {
-		"title": "Our services",
+		"title": "Наши услуги",
 		"items": {
 			"item-one": {
 				"title": "UI/UX дизайн",
@@ -119,5 +119,191 @@
 	},
 	"clients": {
 		"title": "Нам доверяют:"
+	},
+	"cases": {
+		"title": "Наши кейсы:",
+		"button": "Смотреть кейс",
+		"case_one": {
+			"title": "Aberno",
+			"tag": "Разработка внутренней системы компании",
+			"subtitle": "Система для автоматизации внутренних процессов",
+			"works": {
+				"work_one": "Внедрение системы мониторинга качества продукции",
+				"work_two": "Внедрение системы мониторинга и управления складом",
+				"work_three": "Интеграция системы управления оборудованием"
+			},
+			"benefit": "Увеличение прибыли/продуктивности"
+		},
+		"case_two": {
+			"title": "Medicalka",
+			"tag": "Разработка веб-сайта компании",
+			"subtitle": "Информационный веб-портал про здоровья",
+			"works": {
+				"work_one": "Разработка интерактивных веб-ресурса",
+				"work_two": "Создание сообщества и форума",
+				"work_three": "Расширение тематического покрытия"
+			},
+			"benefit": "Увеличение прибыли/продуктивности"
+		},
+		"case_three": {
+			"title": "WMS",
+			"tag": "Разработка внутренней системы компании",
+			"subtitle": "Система для автоматизации внутренних процессов",
+			"works": {
+				"work_one": "Разработка системы управления складом",
+				"work_two": "Внедрение системы отслеживания грузов",
+				"work_three": "Интеграция системы управления заказами"
+			},
+			"benefit": "Увеличение прибыли/продуктивности"
+		},
+		"case_four": {
+			"title": "Moow motors",
+			"tag": "Разработка веб-сайта компании",
+			"subtitle": "Онлайн магазин для продажи автомобилей",
+			"works": {
+				"work_one": "Внедрение виртуального тура по автомобилям",
+				"work_two": "Внедрение онлайн-консультанта и чат-поддержки",
+				"work_three": "Создание интерактивной карты для поиска автомобилей"
+			},
+			"benefit": "Увеличение прибыли/продуктивности"
+		}
+	},
+	"reviews": {
+		"title": "Отзывы наших клиентов"
+	},
+	"work_steps": {
+		"title": "Как мы работаем?",
+		"step_one": {
+			"title": "Планирование и анализ",
+			"tasks": {
+				"task_one": "Определение целей проекта и требований к нему",
+				"task_two": "Анализ бизнес- процессов и потребностей пользователей",
+				"task_three": "Оценка ресурсов и определение бюджета"
+			}
+		},
+		"step_two": {
+			"title": "Проектирование",
+			"tasks": {
+				"task_one": "Создание архитектуры проекта и выбор технологий",
+				"task_two": "Разработка пользовательских интерфейсов (UI/UX design)",
+				"task_three": "Проектирование баз данных и структуры приложения"
+			}
+		},
+		"step_three": {
+			"title": "Разработка",
+			"tasks": {
+				"task_one": "Непосредственное создание программного кода и функциональности",
+				"task_two": "Создание и разработка веб приложения под все устройство",
+				"task_three": "Тестирование и отладка приложения для обеспечения качества и надежности"
+			}
+		},
+		"step_four": {
+			"title": "Тестирование",
+			"tasks": {
+				"task_one": "Проведение различных видов тестирования",
+				"task_two": "Проведение проверки безопасности",
+				"task_three": "Исправление ошибок и устранение недочетов"
+			}
+		},
+		"step_five": {
+			"title": "Внедрение",
+			"tasks": {
+				"task_one": "Развертывание и установка приложения на рабочих серверах или устройствах",
+				"task_two": "Итоговые работы серверов и устройств приложение",
+				"task_three": "Проведение обучения пользователей и внедрение процессов поддержки и обновлений"
+			}
+		},
+		"step_six": {
+			"title": "Поддержка и обслуживание",
+			"tasks": {
+				"task_one": "Расширенное регламентное обслуживание",
+				"task_two": "Восстановление работоспособности приложения",
+				"task_three": "Обновление и модернизация приложения"
+			}
+		}
+	},
+	"slogan": "Просто лучший. Лучше, чем все остальные. Я бы порекомендовал этот продукт новичкам и опытным пользователям.",
+	"footer": {
+		"contacts": "Контакты",
+		"work_time": "Время работы",
+		"work_week": "ПН - ЧТ"
+	},
+	"404": {
+		"text": "К сожалению, мы не смогли найти страницу, которую вы ищете",
+		"button": "Вернутся на главную"
+	},
+	"technical": {
+		"title": "Извините",
+		"text": "Тут ведутся технические работы",
+		"button": "Вернутся на главную"
+	},
+	"contact_manager": {
+		"title-one": "So'rov qoldiring",
+		"title-two": "va menejerimiz siz bilan bog'lanadi",
+		"name": "Ismingiz",
+		"name-placeholder": "AbdulMalik",
+		"phone": "Telefon raqamingiz",
+		"e-mail": "E-mail manzilingiz",
+		"company": "Korhona nomi",
+		"company-placeholder": "Musait Technologies",
+		"description": "Loyhangiz haqida yozing",
+		"description-placeholder": "Loyha haqida malumot",
+		"button-send": "Jonatish",
+		"button-cancel": "Bekor qilish",
+		"contact-us": "Yoki biz bilan",
+		"contact-us-at": "boglanish",
+		"success-send": "Arizangiz muvaffaqiyatli yuborildi"
+	},
+	"lead": {
+		"title-one": "So'rov qoldiring",
+		"title-two": "va menejerimiz siz bilan bog'lanadi",
+		"name": "Ismingiz",
+		"name-placeholder": "AbdulMalik",
+		"phone": "Telefon raqamingiz",
+		"button-send": "Jonatish",
+		"button-cancel": "Bekor qilish",
+		"success-send": "Arizangiz muvaffaqiyatli yuborildi"
+	},
+	"questionnaire": {
+		"title": "Sorovnoma",
+		"subtitle": "Siz bilan yaqinroq tanishishimiz uchun qisqa sorovnomani toldiring",
+		"name": "Ismingis",
+		"name-placeholder": "AbdulMalik",
+		"phone": "Telefon raqamingiz",
+		"age": "Yoshingiz",
+		"age-placeholder": "23 yosh",
+		"company": "Korhona nomi",
+		"company-placeholder": "Musait Technologies",
+		"answer-placeholder": "Javobingizni kiriting",
+		"button-send": "Jonatish",
+		"button-start": "Boshlash",
+		"button-continue": "Keyngisi",
+		"success-send": "Sizning sorovnomangiz muvofaqiyatli jonatildi"
+	},
+	"questions": {
+		"question-one": "QAYSI IJTIMOIY TARMOQLARDAN KO`PROQ FOYDALANASIZ?",
+		"question-two": "KUNNING AYNAN QAYSI QISMIDA KO`PROQ IJTIMOIY TARMOQLARDA BO`LASIZ?",
+		"question-three": "XOBBILARINGIZ",
+		"question-four": "QANDAY JANRDAGI KITOBLARNI O`QIYSIZ?(biznes, psixologiya, detektiv)",
+		"question-five": "QAROR QABUL QILISHDA ASOSAN QANDAY PARAMETRLARGA AHAMIYAT BERASIZ?(sifat, narx, tavsiya, reklamadan korib)",
+		"question-six": "QAYERDA VA QANDAY DAM OLISHNI XUSH KO`RASIZ?",
+		"question-seven": "QANDAY TURDAGI MUAMMOLAR SIZNING BIZNESINGIZDA MUNTAZAM RAVISHDA PAYDO BO`LADI?",
+		"question-eight": "SIZ IJTIMOIY TARMOQLARDA MASHXUR QAYSI INSONLARNING MASLAHATLARIGA QULOQ SOLASIZ?  NEGA AYNAN BU INSON?",
+		"question-nine": "QANDAY REKLAMA SIZDA QIZIQISH UYG`OTA OLADI? (aniq raqamlar, taniqli insonlar,chiroyli suratlar, hisiyotlar)",
+		"question-ten": "BIZNES MUAMMOLARINGIZGA IT YECHIM BERSAK FOYDALANGAN BO`LARMIDINGIZ?"
+	},
+	"errors": {
+		"name": "Ismingizni kiriting",
+		"name-min": "Eng kamida 3 ta simvol",
+		"phone": "Telefon raqamingizni kiriting",
+		"e-mail": "E-mail manzilingizni togri kiriting",
+		"company": "Tashkilot nomini kiriting",
+		"answer": "Javobingizni kiriting"
+	},
+	"modals": {
+		"success-title": "Muvofaqiyat",
+		"error-title": "Hatolik",
+		"modal-button": "Tushunarli",
+		"error-text": "Keyinroq qayta urinib ko'ring yoki telegram orqali menejer bilan bog'laning: t.me//musait_manager"
 	}
 }

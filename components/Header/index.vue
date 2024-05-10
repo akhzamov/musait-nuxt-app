@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 const { t } = useI18n()
 
+const modalWindowStore = useModalWindowStore()
 let typeArray: string[] = reactive([
 	t('header.title-changes.1'),
 	t('header.title-changes.2'),
@@ -48,6 +49,11 @@ const eraseText = (): void => {
 	}
 }
 
+const openApplicationModal = () => {
+	modalWindowStore.modalOpen = true
+	modalWindowStore.applicationModalActive = true
+}
+
 onMounted(() => {
 	setTimeout(typeText, newTextDelay + 0)
 })
@@ -63,7 +69,7 @@ onMounted(() => {
 			<p class="header-content__text">
 				{{ $t('header.subtitle') }}
 			</p>
-			<button class="header-content__button">
+			<button class="header-content__button" @click="openApplicationModal()">
 				{{ $t('header.button') }}
 				<span>
 					<ICO_arrow-circle size="25px" fill="#006569" />

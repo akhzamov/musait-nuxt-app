@@ -236,5 +236,74 @@
 		"title": "Sorry",
 		"text": "Technical work is being carried out here",
 		"button": "Bact to homepage"
+	},
+	"contact_manager": {
+		"title-one": "Leave a request",
+		"title-two": "and our manager will contact you",
+		"name": "First name",
+		"name-placeholder": "John",
+		"phone": "Phone number",
+		"e-mail": "Your E-mail",
+		"company": "Your company",
+		"company-placeholder": "Musait Technologies",
+		"description": "Tell us about the project",
+		"description-placeholder": "Project description",
+		"button-send": "Send",
+		"button-cancel": "Cancel",
+		"contact-us": "Or contact us",
+		"contact-us-at": "on",
+		"success-send": "Your application has been successfully sent"
+	},
+	"lead": {
+		"title-one": "Leave a request",
+		"title-two": "and our manager will contact you",
+		"name": "First name",
+		"name-placeholder": "John",
+		"phone": "Phone number",
+		"button-send": "Send",
+		"button-cancel": "Cancel",
+		"success-send": "Your application has been successfully sent"
+	},
+	"questionnaire": {
+		"title": "Questionnaire",
+		"subtitle": "Complete a short questionnaire so we can get to know you better",
+		"name": "First name",
+		"name-placeholder": "John",
+		"phone": "Phone number",
+		"age": "Your age",
+		"age-placeholder": "23 years old",
+		"company": "Your company",
+		"company-placeholder": "Musait Technologies",
+		"answer-placeholder": "Enter your answer",
+		"button-send": "Send",
+		"button-start": "Start",
+		"button-continue": "Continue",
+		"success-send": "Your questionnaire has been successfully sent"
+	},
+	"questions": {
+		"question-one": "WHICH SOCIAL NETWORKS DO YOU USE MOST?",
+		"question-two": "WHAT PART OF THE DAY DO YOU USE SOCIAL NETWORKS  MOST?",
+		"question-three": "DO YOU HAVE HOBBIES?",
+		"question-four": "WHAT GENRE OF BOOKS DO YOU READ? (business, psychology, detective)",
+		"question-five": "WHICH PARAMETERS ARE MOST IMPORTANT IN DECISION-MAKING? (quality, price, brand, recommendations, seen in advertising)",
+		"question-six": "WHERE AND HOW DO YOU LIKE TO HAVE A REST?",
+		"question-seven": "WHAT TYPES OF PROBLEMS REQUIRE IN YOUR BUSINESS?",
+		"question-eight": "WHICH FAMOUS PEOPLE DO YOU TAKE ADVICE ON SOCIAL MEDIA? WHY THIS PERSON?",
+		"question-nine": "WHAT ADVERTISING CAN AWAKE YOUR INTEREST? (exact numbers, famous person, beautiful image, qualities)",
+		"question-ten": "IF WE PROVIDED SOLUTIONS TO YOUR BUSINESS PROBLEMS, WOULD YOU USE IT?"
+	},
+	"errors": {
+		"name": "Enter your name",
+		"name-min": "Minimum 3 characters",
+		"phone": "Enter your phone number",
+		"e-mail": "Enter correct E-mail",
+		"company": "Enter your company name",
+		"answer": "Answer should not be empty"
+	},
+	"modals": {
+		"success-title": "Success",
+		"error-title": "Error",
+		"modal-button": "Okay",
+		"error-text": "Try again later or contact the manager via telegram: t.me//musait_manager"
 	}
 }

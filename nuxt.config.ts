@@ -1,8 +1,19 @@
 export default defineNuxtConfig({
-	devtools: { enabled: true },
+	devtools: {
+		enabled: true,
+
+		timeline: {
+			enabled: true,
+		},
+	},
 	app: {
 		head: {
-			link: [{ rel: 'icon', type: 'image/png', href: '/musait-logo-no-text.svg' }],
+			link: [
+				{ rel: 'icon', type: 'image/png', href: '/musait-logo-no-text.svg' },
+			],
+			bodyAttrs: {
+				id: 'body',
+			},
 		},
 	},
 	css: ['~/assets/css/main.scss'],
@@ -16,48 +27,69 @@ export default defineNuxtConfig({
 		'@nuxt/image',
 		'@nuxtjs/i18n',
 		'@vueuse/nuxt',
-		['@nuxtjs/google-fonts',
+		'@pinia/nuxt',
+		'@nuxt/ui',
+		[
+			'@vee-validate/nuxt',
+			{
+				autoImports: true,
+				componentNames: {
+					Form: 'VeeForm',
+					Field: 'VeeField',
+					FieldArray: 'VeeFieldArray',
+					ErrorMessage: 'VeeErrorMessage',
+				},
+			},
+		],
+		[
+			'@nuxtjs/google-fonts',
 			{
 				families: {
 					Inter: {
 						wght: [400, 500, 600, 700, 900],
-						ital: [300]
+						ital: [300],
 					},
 					Lato: {
 						wght: [400, 500, 600, 700, 900],
-						ital: [300]
+						ital: [300],
 					},
 				},
-			}]
+			},
+		],
+		'@nuxt/ui',
 	],
+	pinia: {
+		storesDirs: ['./stores/**'],
+	},
 	i18n: {
 		lazy: true,
 		langDir: 'locales',
-		locales: [{
-			code: 'en',
-			iso: 'en-US',
-			name: 'English',
-			file: 'en.json',
-		},
-		{
-			code: 'ru',
-			iso: 'ru',
-			name: 'Русский',
-			file: 'ru.json',
-			isCatchallLocale: true,
-		},
+		locales: [
+			{
+				code: 'en',
+				iso: 'en-US',
+				name: 'English',
+				file: 'en.json',
+			},
+			{
+				code: 'ru',
+				iso: 'ru',
+				name: 'Русский',
+				file: 'ru.json',
+				isCatchallLocale: true,
+			},
 			// {
 			// 	code: 'tr',
 			// 	iso: 'tr',
 			// 	name: 'Türkçe',
 			// 	file: 'tr.json',
 			// },
-			// {
-			// 	code: 'uz',
-			// 	iso: 'uz',
-			// 	name: "O'zbekcha",
-			// 	file: 'uz.json',
-			// },
+			{
+				code: 'uz',
+				iso: 'uz',
+				name: "O'zbekcha",
+				file: 'uz.json',
+			},
 		],
 		defaultLocale: 'ru',
 		vueI18n: './i18n.config.ts',
@@ -77,7 +109,14 @@ export default defineNuxtConfig({
 	},
 	nitro: {
 		prerender: {
-			routes: ['/index.html']
-		}
-	}
+			routes: ['/index.html'],
+		},
+	},
+	colorMode: {
+		preference: 'light',
+	},
+	build: {
+		transpile: ['vee-validate'],
+	},
+	plugins: ['./plugins/maska.ts'],
 })
