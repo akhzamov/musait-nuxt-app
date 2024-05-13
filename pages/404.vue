@@ -1,5 +1,10 @@
 <script lang="ts" setup>
+const { t } = useI18n()
 const localePath = useLocalePath()
+useHead(() => ({
+	status: 404,
+	title: t('404.text'),
+}))
 </script>
 
 <template>
