@@ -110,8 +110,5 @@ export default defineNuxtConfig({
 			routes: ['/index.html'],
 		},
 	},
-	build: {
-		transpile: ['vee-validate'],
-	},
 	plugins: ['~/plugins/phone-mask.ts'],
 })
