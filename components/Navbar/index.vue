@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import { navbarData } from './navbar.data'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 
 const modalWindowStore = useModalWindowStore()
 const route = useRoute()
@@ -80,10 +79,7 @@ const openLeadModal = () => {
 												.find(i => (i as any).code == locale)
 												?.code.toUpperCase()
 										}}
-										<ChevronDownIcon
-											class="-mr-1 h-5 w-5 text-gray-400"
-											aria-hidden="true"
-										/>
+										<ICO_arrow-down />
 									</MenuButton>
 								</div>
 
@@ -176,10 +172,7 @@ const openLeadModal = () => {
 											.find((i: any) => i.code == locale)
 											?.code.toUpperCase()
 									}}
-									<ChevronDownIcon
-										class="-mr-1 h-5 w-5 text-gray-400"
-										aria-hidden="true"
-									/>
+									<ICO_arrow-down />
 								</MenuButton>
 							</div>
 

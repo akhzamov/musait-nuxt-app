@@ -28,7 +28,6 @@ export default defineNuxtConfig({
 		'@nuxtjs/i18n',
 		'@vueuse/nuxt',
 		'@pinia/nuxt',
-		'@nuxt/ui',
 		[
 			'@vee-validate/nuxt',
 			{
@@ -56,7 +55,6 @@ export default defineNuxtConfig({
 				},
 			},
 		],
-		'@nuxt/ui',
 	],
 	pinia: {
 		storesDirs: ['./stores/**'],
@@ -111,9 +109,6 @@ export default defineNuxtConfig({
 		prerender: {
 			routes: ['/index.html'],
 		},
-	},
-	colorMode: {
-		preference: 'light',
 	},
 	build: {
 		transpile: ['vee-validate'],
