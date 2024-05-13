@@ -88,6 +88,7 @@ const nextQuestionStep = () => {
 	} else {
 		answerError.value = true
 	}
+	console.log(answers)
 }
 
 watch(answer, (newAnswer, oldAnswer) => {
@@ -123,7 +124,7 @@ const sendQuestion = async () => {
 const answerSelects = (event: any, answer: any): void => {
 	if (event.target.checked) {
 		if (!selectAnswer.includes(answer.title)) {
-			selectAnswer.push(answer.title)
+			selectAnswer.push(t(`${answer.title}`))
 		}
 		answer.selected = true
 	} else if (!event.target.checked) {
