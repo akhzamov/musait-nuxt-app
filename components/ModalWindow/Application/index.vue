@@ -121,9 +121,8 @@ const closeApplicationModal = () => {
 								v-bind="phoneAttrs"
 								class="input-group__input"
 								type="text"
-								v-maska="phoneNumberMask"
-								data-maska="+998 ## ### ## ##"
-								placeholder="+998 ## ### ## ##"
+								v-phone-mask
+								placeholder="+998 90 123 45 67"
 							/>
 							<span class="input-group__span" :class="{ active: errors.phone }">
 								{{ errors.phone }}

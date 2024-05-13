@@ -129,6 +129,7 @@
 				padding: 25px 45px 25px 15px;
 				position: relative;
 				cursor: pointer;
+				position: relative;
 
 				&-icon {
 					width: 25px;
@@ -157,6 +158,16 @@
 					font-weight: 500;
 					line-height: normal;
 					color: $neutral-regular;
+				}
+
+				&-checkbox {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					z-index: 10;
+					opacity: 0;
 				}
 			}
 

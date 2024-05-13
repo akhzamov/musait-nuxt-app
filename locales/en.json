@@ -281,16 +281,48 @@
 		"success-send": "Your questionnaire has been successfully sent"
 	},
 	"questions": {
-		"question-one": "WHICH SOCIAL NETWORKS DO YOU USE MOST?",
-		"question-two": "WHAT PART OF THE DAY DO YOU USE SOCIAL NETWORKS  MOST?",
-		"question-three": "DO YOU HAVE HOBBIES?",
-		"question-four": "WHAT GENRE OF BOOKS DO YOU READ? (business, psychology, detective)",
-		"question-five": "WHICH PARAMETERS ARE MOST IMPORTANT IN DECISION-MAKING? (quality, price, brand, recommendations, seen in advertising)",
-		"question-six": "WHERE AND HOW DO YOU LIKE TO HAVE A REST?",
-		"question-seven": "WHAT TYPES OF PROBLEMS REQUIRE IN YOUR BUSINESS?",
-		"question-eight": "WHICH FAMOUS PEOPLE DO YOU TAKE ADVICE ON SOCIAL MEDIA? WHY THIS PERSON?",
-		"question-nine": "WHAT ADVERTISING CAN AWAKE YOUR INTEREST? (exact numbers, famous person, beautiful image, qualities)",
-		"question-ten": "IF WE PROVIDED SOLUTIONS TO YOUR BUSINESS PROBLEMS, WOULD YOU USE IT?"
+		"question-one": {
+			"title": "WHICH SOCIAL NETWORKS DO YOU USE MOST?",
+			"select-one": "Instagam",
+			"select-two": "Facebook",
+			"select-three": "Linkedin",
+			"select-four": "X"
+		},
+		"question-two": {
+			"title": "WHAT PART OF THE DAY DO YOU USE SOCIAL NETWORKS  MOST?",
+			"select-one": "Morning",
+			"select-two": "At noon",
+			"select-three": "Вечером",
+			"select-four": "Ночью"
+		},
+		"question-three": {
+			"title": "DO YOU HAVE HOBBIES?"
+		},
+		"question-four": {
+			"title": "WHAT GENRE OF BOOKS DO YOU READ? (business, psychology, detective)",
+			"select-one": "Бизнес",
+			"select-two": "Психология",
+			"select-three": "Детектив",
+			"select-four": "Драма"
+		},
+		"question-five": {
+			"title": "WHICH PARAMETERS ARE MOST IMPORTANT IN DECISION-MAKING? (quality, price, brand, recommendations, seen in advertising)"
+		},
+		"question-six": {
+			"title": "WHERE AND HOW DO YOU LIKE TO HAVE A REST?"
+		},
+		"question-seven": {
+			"title": "WHAT TYPES OF PROBLEMS REQUIRE IN YOUR BUSINESS?"
+		},
+		"question-eight": {
+			"title": "WHICH FAMOUS PEOPLE DO YOU TAKE ADVICE ON SOCIAL MEDIA? WHY THIS PERSON?"
+		},
+		"question-nine": {
+			"title": "WHAT ADVERTISING CAN AWAKE YOUR INTEREST? (exact numbers, famous person, beautiful image, qualities)"
+		},
+		"question-ten": {
+			"title": "IF WE PROVIDED SOLUTIONS TO YOUR BUSINESS PROBLEMS, WOULD YOU USE IT?"
+		}
 	},
 	"errors": {
 		"name": "Enter your name",

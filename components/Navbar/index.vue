@@ -4,14 +4,18 @@ import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 
 const modalWindowStore = useModalWindowStore()
+const route = useRoute()
 const useIdFunction = () => useId()
 const localePath = useLocalePath()
-const { locale, locales } = useI18n()
-const switchLocalePath = useSwitchLocalePath()
-
-const availableLocales = computed(() => {
-	return locales.value.filter(i => i.code !== locale.value)
-})
+const { locale, locales, setLocale } = useI18n()
+const changeLocale = (code: any): void => {
+	if (locale.value !== code) {
+		setLocale(code)
+		const fullPath = route.fullPath ? route.fullPath : route.fullPath
+		const path = localePath(fullPath, code)
+		window.location.href = path
+	}
+}
 
 const addressLink = ref('https://yandex.ru/profile/137293321076')
 const phoneNumber = ref('+998772889099')
@@ -97,11 +101,11 @@ const openLeadModal = () => {
 										<div class="py-1">
 											<MenuItem
 												v-slot="{ active }"
-												v-for="locale in availableLocales"
+												v-for="locale in locales"
 												:key="locale.code"
 											>
-												<NuxtLink
-													:to="switchLocalePath(locale.code)"
+												<div
+													@click="changeLocale(locale.code)"
 													:class="[
 														active
 															? 'bg-gray-100 text-gray-900'
@@ -110,7 +114,7 @@ const openLeadModal = () => {
 													]"
 												>
 													{{ locale.code.toUpperCase() }}
-												</NuxtLink>
+												</div>
 											</MenuItem>
 										</div>
 									</MenuItems>
@@ -193,11 +197,11 @@ const openLeadModal = () => {
 									<div class="py-1">
 										<MenuItem
 											v-slot="{ active }"
-											v-for="locale in availableLocales"
+											v-for="locale in locales"
 											:key="locale.code"
 										>
-											<NuxtLink
-												:to="switchLocalePath(locale.code)"
+											<div
+												@click="changeLocale(locale.code)"
 												:class="[
 													active
 														? 'bg-gray-100 text-gray-900'
@@ -206,7 +210,7 @@ const openLeadModal = () => {
 												]"
 											>
 												{{ locale.code.toUpperCase() }}
-											</NuxtLink>
+											</div>
 										</MenuItem>
 									</div>
 								</MenuItems>

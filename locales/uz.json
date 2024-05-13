@@ -265,32 +265,64 @@
 		"success-send": "Arizangiz muvaffaqiyatli yuborildi"
 	},
 	"questionnaire": {
-		"title": "Sorovnoma",
-		"subtitle": "Siz bilan yaqinroq tanishishimiz uchun qisqa sorovnomani toldiring",
-		"name": "Ismingis",
-		"name-placeholder": "AbdulMalik",
+		"title": "So'rovnoma",
+		"subtitle": "ltimos, qisqa ma'lumotingizni kiriting",
+		"name": "Ismingiz",
+		"name-placeholder": "Anvar",
 		"phone": "Telefon raqamingiz",
 		"age": "Yoshingiz",
 		"age-placeholder": "23 yosh",
-		"company": "Korhona nomi",
+		"company": "Korxona nomi",
 		"company-placeholder": "Musait Technologies",
 		"answer-placeholder": "Javobingizni kiriting",
 		"button-send": "Jonatish",
 		"button-start": "Boshlash",
 		"button-continue": "Keyngisi",
-		"success-send": "Sizning sorovnomangiz muvofaqiyatli jonatildi"
+		"success-send": "Sizning so'rovnomangiz muvofaqiyatli jonatildi"
 	},
 	"questions": {
-		"question-one": "QAYSI IJTIMOIY TARMOQLARDAN KO`PROQ FOYDALANASIZ?",
-		"question-two": "KUNNING AYNAN QAYSI QISMIDA KO`PROQ IJTIMOIY TARMOQLARDA BO`LASIZ?",
-		"question-three": "XOBBILARINGIZ",
-		"question-four": "QANDAY JANRDAGI KITOBLARNI O`QIYSIZ?(biznes, psixologiya, detektiv)",
-		"question-five": "QAROR QABUL QILISHDA ASOSAN QANDAY PARAMETRLARGA AHAMIYAT BERASIZ?(sifat, narx, tavsiya, reklamadan korib)",
-		"question-six": "QAYERDA VA QANDAY DAM OLISHNI XUSH KO`RASIZ?",
-		"question-seven": "QANDAY TURDAGI MUAMMOLAR SIZNING BIZNESINGIZDA MUNTAZAM RAVISHDA PAYDO BO`LADI?",
-		"question-eight": "SIZ IJTIMOIY TARMOQLARDA MASHXUR QAYSI INSONLARNING MASLAHATLARIGA QULOQ SOLASIZ?  NEGA AYNAN BU INSON?",
-		"question-nine": "QANDAY REKLAMA SIZDA QIZIQISH UYG`OTA OLADI? (aniq raqamlar, taniqli insonlar,chiroyli suratlar, hisiyotlar)",
-		"question-ten": "BIZNES MUAMMOLARINGIZGA IT YECHIM BERSAK FOYDALANGAN BO`LARMIDINGIZ?"
+		"question-one": {
+			"title": "QAYSI IJTIMOIY TARMOQLARDAN KO`PROQ FOYDALANASIZ?",
+			"select-one": "Instagam",
+			"select-two": "Facebook",
+			"select-three": "Linkedin",
+			"select-four": "X"
+		},
+		"question-two": {
+			"title": "KUNNING AYNAN QAYSI QISMIDA KO`PROQ IJTIMOIY TARMOQLARDA BO`LASIZ?",
+			"select-one": "Ertalab",
+			"select-two": "Obed da",
+			"select-three": "Kechki payt",
+			"select-four": "Kechqurun"
+		},
+		"question-three": {
+			"title": "SEVIMLI MASHG'ULOTINGIZ (XOBBI)"
+		},
+		"question-four": {
+			"title": "QANDAY JANRDAGI KITOBLARNI O`QIYSIZ?(biznes, psixologiya, detektiv)",
+			"select-one": "Biznes",
+			"select-two": "Psixologiya",
+			"select-three": "Detektiv",
+			"select-four": "Drama"
+		},
+		"question-five": {
+			"title": "Qaysi parametrlar qaror qabul  qilishingiz uchun muhim? (Reklama, tavsiya, narx, sifat)"
+		},
+		"question-six": {
+			"title": "QAYERDA VA QANDAY DAM OLISHNI XUSH KO`RASIZ?"
+		},
+		"question-seven": {
+			"title": "QANDAY TURDAGI MUAMMOLAR SIZNING BIZNESINGIZDA MUNTAZAM RAVISHDA PAYDO BO`LADI?"
+		},
+		"question-eight": {
+			"title": "Ijtimoiy tarmoqlarda kimlarni va nima uchun kuzatasiz?"
+		},
+		"question-nine": {
+			"title": "Qanday reklama sizda qiziqish uyg'otadi? (Hissiyot, raqam, taniqli inson, qiziqarli kontent)"
+		},
+		"question-ten": {
+			"title": "BIZNES MUAMMOLARINGIZGA IT YECHIM BERSAK FOYDALANGAN BO`LARMIDINGIZ?"
+		}
 	},
 	"errors": {
 		"name": "Ismingizni kiriting",

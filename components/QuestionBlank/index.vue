@@ -33,12 +33,12 @@ const questionBlank = reactive({
 	company: '',
 })
 
-const phoneNumberMask = reactive({})
 const questionStep = ref(1)
 const stepTwo = ref(false)
 const answer = ref('')
 const answerError = ref(false)
 const answers = reactive<string[]>([])
+let selectAnswer = reactive<string[]>([])
 
 const { values, handleSubmit, meta, handleReset, defineField, errors } =
 	useForm<IQuestionUser>({
@@ -70,14 +70,21 @@ const progressBarWidth = computed(() => {
 })
 
 const nextQuestionStep = () => {
-	if (answer.value != '') {
-		if (questionStep.value != questionAnswersBusinessData.length) {
+	if (answer.value != '' || selectAnswer.length >= 1) {
+		if (answer.value != '') {
 			answers.push(`{- ${answer.value} -}`)
-			questionStep.value++
 			answer.value = ''
+		} else if (selectAnswer.length >= 1) {
+			let ans = selectAnswer.join(',')
+			answers.push(`{- ${ans} -}`)
+			selectAnswer = reactive<string[]>([])
+		}
+		if (questionStep.value != questionAnswersBusinessData.length) {
+			questionStep.value++
 		} else {
 			questionStep.value = 1
 		}
+		console.log(answers)
 	} else {
 		answerError.value = true
 	}
@@ -112,6 +119,17 @@ const sendQuestion = async () => {
 			modalWindowStore.errorModalText = t('modals.error-text')
 		})
 }
+
+const answerSelects = (event: any, answer: any): void => {
+	if (event.target.checked) {
+		if (!selectAnswer.includes(answer.title)) {
+			selectAnswer.push(answer.title)
+		}
+		answer.selected = true
+	} else if (!event.target.checked) {
+		answer.selected = false
+	}
+}
 </script>
 
 <template>
@@ -137,6 +155,7 @@ const sendQuestion = async () => {
 									type="text"
 									:placeholder="$t('questionnaire.name-placeholder')"
 								/>
+
 								<span
 									class="input-group__span"
 									:class="{ active: errors.username }"
@@ -152,9 +171,8 @@ const sendQuestion = async () => {
 									name="phone"
 									v-model="phone"
 									v-bind="phoneAttrs"
-									v-maska="phoneNumberMask"
-									data-maska="+998 ## ### ## ##"
-									placeholder="+998 ## ### ## ##"
+									placeholder="+998 90 123 45 67"
+									v-phone-mask
 									class="input-group__input"
 									type="text"
 								/>
@@ -227,7 +245,15 @@ const sendQuestion = async () => {
 								v-for="answers in question.selectAnswers"
 								:key="answers.id"
 							>
-								<div class="question-blank__answer-select-icon">
+								<input
+									type="checkbox"
+									class="question-blank__answer-select-checkbox"
+									@input="answerSelects($event, answers)"
+								/>
+								<div
+									class="question-blank__answer-select-icon"
+									:class="{ active: answers.selected }"
+								>
 									<ICO_baseline-check size="17px" fill="#fff" />
 								</div>
 								<p class="question-blank__answer-select-text">
@@ -250,7 +276,7 @@ const sendQuestion = async () => {
 									:class="{ active: answerError }"
 									v-if="answerError"
 								>
-									{{ $t('questionnaire.errors.answer') }}
+									{{ $t('errors.answer') }}
 								</span>
 							</div>
 						</div>
