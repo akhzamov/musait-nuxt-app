@@ -106,19 +106,19 @@ export const questionAnswersBusinessData: IQuestionAnswersBusiness[] = [
 		selectAnswers: [],
 	},
 	{
-		id: 7,
+		id: 6,
 		title: 'questions.question-seven.title',
 		questionTypeSelect: false,
 		selectAnswers: [],
 	},
 	{
-		id: 8,
+		id: 7,
 		title: 'questions.question-eight.title',
 		questionTypeSelect: false,
 		selectAnswers: [],
 	},
 	{
-		id: 9,
+		id: 8,
 		title: 'questions.question-nine.title',
 		questionTypeSelect: false,
 		selectAnswers: [],

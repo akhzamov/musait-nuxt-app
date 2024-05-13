@@ -1,241 +1,241 @@
 {
 	"nav": {
 		"top": {
-			"address": "г. Ташкент, Шахрисабзский пр., бизнес-центр Seoul Plaza, 5А",
-			"tel": "Тел.: "
+			"address": "Toshkent shahar, Shaxrisabz ko`chasi 5A, Seoul Plaza biznes markazi.",
+			"tel": "Tel.: "
 		},
 		"content": {
 			"list": {
-				"services": "Услуги",
-				"сases": "Кейсы",
-				"about": "О Компании",
-				"vacancies": "Вакансии",
-				"contacts": "Контакты"
+				"services": "Hizmatlar",
+				"сases": "Keyslar",
+				"about": "Kompaniya haqida",
+				"vacancies": "Vakansiyalar",
+				"contacts": "Murojaat uchun"
 			},
-			"button": "Связаться с менеджером"
+			"button": "Menedjer bilan bog`lanish"
 		}
 	},
 	"header": {
 		"title-one": "Мы поможем вам с",
 		"title-two": "и принесем видимые результаты",
 		"title-changes": {
-			"1": "IT-разработкой",
-			"2": "UI/UX дизайном",
-			"3": "IT-аудитом",
-			"4": "Консалтингом",
-			"5": "IT-интеграциеи",
-			"6": "Продвижением стартапов",
-			"7": "Акселерацией",
-			"8": "IT-инвестициями",
-			"9": "Внедрениями AI"
+			"1": "IT- dasturlash",
+			"2": "UI/UX dizayn",
+			"3": "IT-audit",
+			"4": "Konsalting",
+			"5": "IT-integrasiya",
+			"6": "Startaplarni targ'ib qilish",
+			"7": "Аkselerasiya",
+			"8": "IT-sarmoyalar",
+			"9": "AIni joriy etish"
 		},
-		"subtitle": "Разрабатываем продукты, которые оптимизируют процессы и стратегии, способствующие увеличению доходов наших клиентов по всему Узбекистану и зарубежом.",
-		"button": "Обсудить проект"
+		"subtitle": "Biz butun O'zbekiston va dunyo bo`ylab mijozlarimiz daromadlarini oshirishga yordam beradigan jarayonlar, strategiyalar va optimallashtiradigan mahsulotlarni ishlab chiqmoqdamiz.",
+		"button": "Loyihani muhokama qilish"
 	},
 	"services": {
-		"title": "Наши услуги",
+		"title": "Bizning hizmatlar",
 		"items": {
 			"item-one": {
-				"title": "UI/UX дизайн",
+				"title": "UI/UX dizayn",
 				"tags": {
-					"tag_one": "UX-исследование",
-					"tag_two": "Проектирование",
-					"tag_three": "Оптимизация бизнес-процесса"
+					"tag_one": "UX-tadqiqot",
+					"tag_two": "Loyihalashtirish",
+					"tag_three": "Biznes jarayonni optimizatsiyalashtirish"
 				},
-				"text": "Создаем уникальный UI/UX дизайн с нуля! Наша команда превратит ваши идеи в современные и привлекательные пользовательские интерфейсы.",
-				"deadline": "от 14 дней на 1 проект"
+				"text": "Noldan unikal UX/UI dizaynini yaratamiz! Bizning jamoamiz sizning g'oyalaringizni zamonaviy va jalb qiluvchi foydalanuvchi interfeyslariga aylantiradi.",
+				"deadline": "1 loyiha uchun 14 kundan boshlab"
 			},
 			"item-two": {
-				"title": "IT-аудит и консалтинг",
+				"title": "IT-audit va konsalting",
 				"tags": {
-					"tag_one": "Оценка безопасности",
-					"tag_two": "Аудит программного обеспечения",
-					"tag_three": "Выбор технологий и поставщиков"
+					"tag_one": "Xavfsizlikni baholash",
+					"tag_two": "Dasturiy ta`minot auditi",
+					"tag_three": "Texnologiya va etkazib beruvchilarni tanlash"
 				},
-				"text": "Экспертный IT-аудит и консультационная поддержка. Оценка, оптимизация и безопасность вашей информационной инфраструктуры.",
-				"deadline": "от 14 дней на 1 проект"
+				"text": "Maxsus IT auditi va konsalting yordami. Axborot infratuzilmangizni baholash, optimallashtirish va himoya.",
+				"deadline": "1 loyiha uchun 14 kundan boshlab"
 			},
 			"item-three": {
-				"title": "IT-интеграция",
+				"title": "IT-integratsiya",
 				"tags": {
-					"tag_one": "Интеграция бизнес-процессов",
-					"tag_two": "Интеграция устройств",
-					"tag_three": "Интеграция облачных и локальных систем"
+					"tag_one": "Biznes jarayonlar integratsiyasi",
+					"tag_two": "Qurilmalar integratsiyasi",
+					"tag_three": "Mahalliy tizim va        integratsiyasi"
 				},
-				"text": "Мы обеспечим согласованность и эффективность ваших информационных систем, улучшим процессы и повысим конкурентоспособность вашей компании.",
-				"deadline": "от 14 дней на 1 проект"
+				"text": "Biz sizning axborot tizimlaringizning izchilligi va samaradorligini ta'minlab, jarayonlarni yaxshilagan holda kompaniyangizning raqobatbardoshligini oshiramiz.",
+				"deadline": "1 loyiha uchun 14 kundan boshlab"
 			},
 			"item-four": {
-				"title": "IT-инвестиции",
+				"title": "IT- sarmoyalar",
 				"tags": {
-					"tag_one": "Инвестиции в программное обеспечение",
-					"tag_two": "Инвестиции в персонал и обучение",
-					"tag_three": "Инвестиции в инновации и исследования"
+					"tag_one": "Dasturiy ta'minotga sarmoyalar",
+					"tag_two": "Kadrlar va ta`limga sarmoyalar",
+					"tag_three": "Innovatsiyalar va tadqiqotlarga sarmoyalar"
 				},
-				"text": "Наши инвестиционные решения направлены на улучшение бизнес-процессов, разработку инновационных продуктов и повышение конкурентоспособности.",
-				"deadline": "от 14 дней на 1 проект"
+				"text": "Bizning sarmoyaviy yechimlarimiz biznes jarayonlarini takomillashtirish, innovatsion mahsulotlarni ishlab chiqarish va raqobatbardoshlikni oshirishga qaratilgan.",
+				"deadline": "1 loyiha uchun 14 kundan boshlab"
 			},
 			"item-five": {
-				"title": "Продвижение стартапов",
+				"title": "Startaplarni targ`ib qilish",
 				"tags": {
-					"tag_one": "Менторство и консультации",
-					"tag_two": "Финансовая поддержка",
-					"tag_three": "Техническая поддержка"
+					"tag_one": "Mentorlik va konsultatsiyalar",
+					"tag_two": "Moliyaviy qo`llab-quvvatlash",
+					"tag_three": "Texnik qo`llab-quvvatlash"
 				},
-				"text": "Наша команда поможет вашему проекту выйти на новый уровень - от разработки стратегии до маркетинговой поддержки.",
-				"deadline": "от 14 дней на 1 проект"
+				"text": "Bizning jamoamiz sizning loyihangiz yangi bosqichga ko'tarilishi  uchun, strategiyani ishlab chiqishdan tortib, marketing tomonlama qo'llab-quvvatlashgacha yordam beradi.",
+				"deadline": "1 loyiha uchun 14 kundan boshlab"
 			},
 			"item-six": {
-				"title": "Акселерация",
+				"title": "Аkselerasiya",
 				"tags": {
-					"tag_one": "Акселерационные программы",
-					"tag_two": "Контакты и партнерства",
-					"tag_three": "Мероприятия и питч-сессии"
+					"tag_one": "Akselerasiya dasturlari",
+					"tag_two": "Hamkorlik va aloqa",
+					"tag_three": "Tadbirlar va pitch seanslari"
 				},
-				"text": "Мы помогаем стартапам и молодым компаниям достичь быстрого роста и успеха на рынке.",
-				"deadline": "от 14 дней на 1 проект"
+				"text": "Biz startaplar va yosh kompaniyalarga tez o'sish va bozorda muvaffaqiyatga erishishda yordam beramiz.",
+				"deadline": "1 loyiha uchun 14 kundan boshlab"
 			},
 			"item-seven": {
-				"title": "IT-разработка",
+				"title": "IT-dasturlash",
 				"tags": {
-					"tag_one": "Разработка мобильных приложение",
-					"tag_two": "Разработка веб-приложений и десктопных-приложений",
-					"tag_three": "Разработка и внедрение ERP систем"
+					"tag_one": "Mobil ilovalarni dasturlash",
+					"tag_two": "Web-ilova va desktop-ilovalarni dasturlash",
+					"tag_three": "ERP tizimlarni yaratish va joriy qilish"
 				},
-				"text": "Мы создаем инновационные решения, которые улучшат ваш бизнес, оптимизируют процессы и повысят конкурентоспособность.",
-				"deadline": "от 14 дней на 1 проект"
+				"text": "Biz biznesingizni yaxshilaydigan, jarayonlarni optimallashtiradigan va raqobatbardoshlikni oshiradigan innovatsion yechimlarni yaratamiz.",
+				"deadline": "1 loyiha uchun 14 kundan boshlab"
 			},
 			"item-eight": {
-				"title": "Внедрение AI",
+				"title": "AIni joriy qilish",
 				"tags": {
-					"tag_one": "Определение целей и задач",
-					"tag_two": "Оценка потенциала AI",
-					"tag_three": "Подбор соответствующих решений"
+					"tag_one": "Maqsad va vazifalarni aniqlash",
+					"tag_two": "AI salohiyatini baholash",
+					"tag_three": "Tegishli yechimlarni tanlash"
 				},
-				"text": "Внедряем искусственный интеллект для вашего бизнеса! Наши AI-решения оптимизируют процессы, повышают эффективность и помогают принимать более обоснованные решения.",
-				"deadline": "от 14 дней на 1 проект"
+				"text": "Biz sizning biznesingiz uchun tizimingizga sun'iy intellektni singdiramiz! AI yechimlarimiz jarayonlarni optimallashtirib samaradorlikni oshiradi va sizga ko`proq ma`lumotga ega bo`lgan holda qaror qabul qilishga yordam beradi.",
+				"deadline": "1 loyiha uchun 14 kundan boshlab"
 			}
 		}
 	},
 	"clients": {
-		"title": "Нам доверяют:"
+		"title": "Bizga ishonch bildiradilar:"
 	},
 	"cases": {
-		"title": "Наши кейсы:",
-		"button": "Смотреть кейс",
+		"title": "Bizning keyslar:",
+		"button": "Keysni ko`rish",
 		"case_one": {
 			"title": "Aberno",
-			"tag": "Разработка внутренней системы компании",
-			"subtitle": "Система для автоматизации внутренних процессов",
+			"tag": "Kompaniyaning ichki tizimini dasturlash",
+			"subtitle": "Ichki jarayonlarni avtomatizatsiyalash uchun tizim",
 			"works": {
-				"work_one": "Внедрение системы мониторинга качества продукции",
-				"work_two": "Внедрение системы мониторинга и управления складом",
-				"work_three": "Интеграция системы управления оборудованием"
+				"work_one": "Mahsulot sifatini monitoring qilish tizimini joriy etish",
+				"work_two": "Ombor monitoringi va boshqaruv tizimini joriy etish",
+				"work_three": "Uskunalarni boshqarish tizimining integratsiyasi"
 			},
-			"benefit": "Увеличение прибыли/продуктивности"
+			"benefit": "Foyda / unumdorlikning oshishi"
 		},
 		"case_two": {
 			"title": "Medicalka",
-			"tag": "Разработка веб-сайта компании",
-			"subtitle": "Информационный веб-портал про здоровья",
+			"tag": "Kompaniyaning web-saytini dasturlash",
+			"subtitle": "Salomatlik haqida ma'lumotlar web-portali",
 			"works": {
-				"work_one": "Разработка интерактивных веб-ресурса",
-				"work_two": "Создание сообщества и форума",
-				"work_three": "Расширение тематического покрытия"
+				"work_one": "Interaktiv web-resurslarni ishlab chiqish",
+				"work_two": "Jamiyat va forum yaratish",
+				"work_three": "Tematik qamrovni kengaytirish"
 			},
-			"benefit": "Увеличение прибыли/продуктивности"
+			"benefit": "Foyda / unumdorlikning oshishi"
 		},
 		"case_three": {
 			"title": "WMS",
-			"tag": "Разработка внутренней системы компании",
-			"subtitle": "Система для автоматизации внутренних процессов",
+			"tag": "Kompaniyaning ichki tizimini dasturlash",
+			"subtitle": "Ichki jarayonlarni avtomatizatsiyalash uchun tizim",
 			"works": {
-				"work_one": "Разработка системы управления складом",
-				"work_two": "Внедрение системы отслеживания грузов",
-				"work_three": "Интеграция системы управления заказами"
+				"work_one": "Omborni boshqarish tizimini yaratish ",
+				"work_two": "Yuklarni kuzatish tizimini joriy etish",
+				"work_three": "Buyurtmalarni boshqarish tizimining integratsiyasi"
 			},
-			"benefit": "Увеличение прибыли/продуктивности"
+			"benefit": "Foyda / unumdorlikning oshishi"
 		},
 		"case_four": {
 			"title": "Moow motors",
-			"tag": "Разработка веб-сайта компании",
-			"subtitle": "Онлайн магазин для продажи автомобилей",
+			"tag": "Kompaniyaning web-saytini dasturlash",
+			"subtitle": "Avtomobillar sotuvi uchun onlayn magazin",
 			"works": {
-				"work_one": "Внедрение виртуального тура по автомобилям",
-				"work_two": "Внедрение онлайн-консультанта и чат-поддержки",
-				"work_three": "Создание интерактивной карты для поиска автомобилей"
+				"work_one": "Virtual avtomobillar turini amalga oshirish",
+				"work_two": "Onlayn konsultant va qo'llab-quvvatlash chatini joriy etish",
+				"work_three": "Avtomobillarni qidirish uchun interaktiv xarita yaratish"
 			},
-			"benefit": "Увеличение прибыли/продуктивности"
+			"benefit": "Foyda / unumdorlikning oshishi"
 		}
 	},
 	"reviews": {
-		"title": "Отзывы наших клиентов"
+		"title": "Mijozlarimizning fikr-mulohazalari"
 	},
 	"work_steps": {
-		"title": "Как мы работаем?",
+		"title": "Biz qanday ishlaymiz?",
 		"step_one": {
-			"title": "Планирование и анализ",
+			"title": "Rejalashtirish va tahlil qilish",
 			"tasks": {
-				"task_one": "Определение целей проекта и требований к нему",
-				"task_two": "Анализ бизнес- процессов и потребностей пользователей",
-				"task_three": "Оценка ресурсов и определение бюджета"
+				"task_one": "Loyihaning maqsadlari va talablarini aniqlash",
+				"task_two": "Biznes jarayonlari va foydalanuvchi ehtiyojlarini tahlil qilish",
+				"task_three": "Resurslarni baholash va byudjetni aniqlash"
 			}
 		},
 		"step_two": {
-			"title": "Проектирование",
+			"title": "Loyihalashtirish",
 			"tasks": {
-				"task_one": "Создание архитектуры проекта и выбор технологий",
-				"task_two": "Разработка пользовательских интерфейсов (UI/UX design)",
-				"task_three": "Проектирование баз данных и структуры приложения"
+				"task_one": "Loyiha arxitekturasini yaratish va texnologiyalarni tanlash",
+				"task_two": "Foydalanuvchi interfeyslarini ishlab chiqish (UI/UX design)",
+				"task_three": "Ma'lumotlar bazasi dizayni va dastur tuzilishi"
 			}
 		},
 		"step_three": {
-			"title": "Разработка",
+			"title": "Dasturlash",
 			"tasks": {
-				"task_one": "Непосредственное создание программного кода и функциональности",
-				"task_two": "Создание и разработка веб приложения под все устройство",
+				"task_one": "To'g'ridan-to'g'ri dasturiy ta'minot kodi va funksionalligini yaratish",
+				"task_two": "Butun qurilmalar uchun web-ilovani yaratish va ishlab chiqish",
 				"task_three": "Тестирование и отладка приложения для обеспечения качества и надежности"
 			}
 		},
 		"step_four": {
-			"title": "Тестирование",
+			"title": "Sinovdan o`tkazish",
 			"tasks": {
-				"task_one": "Проведение различных видов тестирования",
-				"task_two": "Проведение проверки безопасности",
-				"task_three": "Исправление ошибок и устранение недочетов"
+				"task_one": "Har xil turdagi testlarni o'tkazish",
+				"task_two": "Xavfsizlik tekshiruvlarini o'tkazish",
+				"task_three": "Xatolarni tuzatish va kamchiliklarni bartaraf etish"
 			}
 		},
 		"step_five": {
-			"title": "Внедрение",
+			"title": "Joriy etish",
 			"tasks": {
-				"task_one": "Развертывание и установка приложения на рабочих серверах или устройствах",
-				"task_two": "Итоговые работы серверов и устройств приложение",
-				"task_three": "Проведение обучения пользователей и внедрение процессов поддержки и обновлений"
+				"task_one": "Ilovani serverlar va qurilmalarga joylashtirish va o'rnatish",
+				"task_two": "Serverlar, qurilmalar va ilovalarning yakuniy ishlashi",
+				"task_three": "Foydalanuvchilarni o'qitish, qo'llab-quvvatlash va yangilash jarayonlarini joriy qilish"
 			}
 		},
 		"step_six": {
-			"title": "Поддержка и обслуживание",
+			"title": "Qo'llab-quvvatlash va texnik xizmat ko'rsatish",
 			"tasks": {
-				"task_one": "Расширенное регламентное обслуживание",
-				"task_two": "Восстановление работоспособности приложения",
-				"task_three": "Обновление и модернизация приложения"
+				"task_one": "Kengaytirilgan muntazam xizmat",
+				"task_two": "Ilovalarning ish qobiliyatini tiklash",
+				"task_three": "Ilovalarning modernizatsiyasi"
 			}
 		}
 	},
-	"slogan": "Просто лучший. Лучше, чем все остальные. Я бы порекомендовал этот продукт новичкам и опытным пользователям.",
+	"slogan": "Eng yaxshisi. Boshqalardan yaxshiroq. Men ushbu mahsulotni yangi boshlovchilar va ilg'or foydalanuvchilar uchun tavsiya qilaman.",
 	"footer": {
-		"contacts": "Контакты",
-		"work_time": "Время работы",
-		"work_week": "ПН - ЧТ"
+		"contacts": "Aloqa uchun",
+		"work_time": "Ish vaqti:",
+		"work_week": "Dushanba-Juma"
 	},
 	"404": {
-		"text": "К сожалению, мы не смогли найти страницу, которую вы ищете",
-		"button": "Вернутся на главную"
+		"text": "Afsuski, biz siz qidirayotgan sahifani topa olmadik",
+		"button": "Asosiy sahifaga o`tish"
 	},
 	"technical": {
-		"title": "Извините",
-		"text": "Тут ведутся технические работы",
-		"button": "Вернутся на главную"
+		"title": "Kechirasiz",
+		"text": "Texnik ishlar olib borilmoqda",
+		"button": "Asosiy sahifaga o`tish"
 	},
 	"contact_manager": {
 		"title-one": "So'rov qoldiring",
