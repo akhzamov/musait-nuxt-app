@@ -10,9 +10,9 @@ useSeoMeta({
 	</header>
 	<Services />
 	<Clients />
-	<Stats />
+	<!-- <Stats /> -->
 	<Cases />
-	<Reviews />
+	<!-- <Reviews /> -->
 	<WorkSteps />
 	<Slogan />
 </template>

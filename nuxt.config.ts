@@ -14,6 +14,12 @@ export default defineNuxtConfig({
 			bodyAttrs: {
 				id: 'body',
 			},
+			meta: [
+				{
+					name: 'google-site-verification',
+					content: '2rQHxEmF_R0oeYjJSeWTd3UEpd1GbEFpUuMjiuYbVL0',
+				},
+			],
 		},
 	},
 	css: ['~/assets/css/main.scss'],
